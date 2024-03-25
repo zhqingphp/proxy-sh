@@ -275,8 +275,8 @@ elif [ "$1" = "delete" ]; then
   docker stop $(docker ps -aq)
   docker rm $(docker ps -aq)
 else
-  echo "安装GO_MTPROTO：g"
   echo "安装tg官方MTPROTO：t"
+  echo "安装GO_MTPROTO：g"
   echo "安装nginx_MTPROTO：n"
   echo "安装SOCKS5：s"
   echo "停止全部容器：stop"
