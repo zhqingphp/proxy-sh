@@ -1,6 +1,6 @@
 # 说明
 * 使用脚本前请先安装docker
-* ubuntu安装 sudo apt-get install docker-ce docker-ce-cli containerd.io
+* ubuntu安装 `sudo apt-get install docker-ce docker-ce-cli containerd.io`
 
   
 ## MTPROTO有三种，看需要选择安装
