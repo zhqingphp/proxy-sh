@@ -1,7 +1,9 @@
-* MTPROTO有三种，看需要选择安装
-
+## MTPROTO有三种，看需要选择安装
 ```
-sudo chmod 777 ./proxy.sh
+bash <(curl -sL "https://raw.githubusercontent.com/zhqingphp/proxy-sh/main/proxy.sh") [参数]
+```
+### 参数说明
+```
 ./proxy.sh t        安装tg官方MTPROTO
 ./proxy.sh g        安装GO_MTPROTO,go语言写的
 ./proxy.sh n        安装nginx_MTPROTO,支持白名单
