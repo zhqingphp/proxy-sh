@@ -1,6 +1,6 @@
 ## MTPROTO有三种，看需要选择安装
 ```
-bash <(curl -sL "https://raw.githubusercontent.com/zhqingphp/proxy-sh/main/proxy.sh") [参数]
+bash <(curl -sL "https://raw.githubusercontent.com/zhqingphp/proxy-sh/main/proxy.sh") 参数
 ```
 ### 参数说明
 ```
