@@ -30,11 +30,11 @@ if [ "$1" = "t" ]; then
   echo " secret为 $secret"
   echo ""
 
-  read -p "请设置容器名称（默认为 t_mtg）" DNAME
+  read -p "请设置容器名称（默认为 t_$port）" DNAME
   if [[ -n $DNAME ]]; then
     name=$DNAME
   else
-    name="t_mtg"
+    name="t_$port"
   fi
   echo "容器名称为 $name"
   echo ""
@@ -117,11 +117,11 @@ elif [ "$1" = "n" ]; then
     tag=''
     echo "不使用tag"
   fi
-  read -p "请设置容器名称（默认为 n_mtg）" DNAME
+  read -p "请设置容器名称（默认为 n_$PORT1）" DNAME
   if [[ -n $DNAME ]]; then
     name=$DNAME
   else
-    name="n_mtg"
+    name="n_$PORT1"
   fi
   echo "容器名称为 $name"
   echo ""
@@ -177,11 +177,11 @@ elif [ "$1" = "g" ]; then
   fi
   echo "伪装访问网址为 $domain"
   echo ""
-  read -p "请设置容器名称（默认为 g_mtg）" DNAME
+  read -p "请设置容器名称（默认为 g_$port）" DNAME
   if [[ -n $DNAME ]]; then
     name=$DNAME
   else
-    name="g_mtg"
+    name="g_$port"
   fi
   echo "容器名称为 $name"
   echo ""
@@ -247,11 +247,11 @@ elif [ "$1" = "s" ]; then
   fi
   echo "认证密码为 $pass"
   echo ""
-  read -p "请设置容器名称（默认为 s_proxy）" DNAME
+  read -p "请设置容器名称（默认为 s_$port）" DNAME
   if [[ -n $DNAME ]]; then
     name=$DNAME
   else
-    name="s_proxy"
+    name="s_$port"
   fi
   echo "容器名称为 $name"
   echo ""
